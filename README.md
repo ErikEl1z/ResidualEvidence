@@ -1,5 +1,7 @@
 # ResidualEvidence
 
+> "Deleted is often just a status, not a destination."
+
 Digital Forensics & Incident Response portfolio showcasing hands-on forensic investigations, artifact analysis, and evidence collection techniques.
 
 This repository contains practical DFIR exercises focused on identifying, preserving, analyzing, and documenting digital evidence. Each investigation emphasizes methodology, evidence integrity, and forensic analysis rather than simply obtaining results.
