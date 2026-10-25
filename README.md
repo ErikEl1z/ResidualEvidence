@@ -2,105 +2,122 @@
 
 > "Deleted is often just a status, not a destination."
 
-Digital Forensics & Incident Response portfolio showcasing hands-on forensic investigations, artifact analysis, and evidence collection techniques.
+A Digital Forensics & Incident Response (DFIR) portfolio documenting forensic investigations, evidence collection procedures, artifact analysis, and investigative methodologies.
 
-This repository contains practical DFIR exercises focused on identifying, preserving, analyzing, and documenting digital evidence. Each investigation emphasizes methodology, evidence integrity, and forensic analysis rather than simply obtaining results.
+The goal of this repository is to demonstrate practical forensic skills through hands-on investigations involving Windows artifacts, memory acquisition, browser analysis, evidence validation, and file system examination.
 
 ---
 
-## Areas of Focus
+## Investigation Portfolio
 
-- Windows Event Log Analysis
-- Memory Forensics
-- Disk Imaging & Verification
-- Deleted File Recovery
-- Browser Artifact Analysis
+### Windows Event Log Investigation
+Analysis of Windows Security, Application, and System logs to identify account activity, service changes, audit events, and establish investigative timelines.
+
+**Skills Demonstrated**
+- Event Log Analysis
 - Timeline Reconstruction
-- Evidence Integrity Validation
-- Incident Response Fundamentals
+- Windows Auditing
+- Log Parsing
+- Event Correlation
 
 ---
 
-## Tools Used
+### Disk Imaging & Deleted File Recovery
+Acquisition and validation of forensic disk images followed by file carving and recovery of deleted artifacts.
 
-### Forensic Acquisition
+**Skills Demonstrated**
+- Forensic Imaging
+- Evidence Preservation
+- MD5/SHA-1 Verification
+- File Recovery
+- Autopsy Analysis
+- Chain of Custody Concepts
+
+---
+
+### Memory Forensics with Volatility
+Collection and examination of volatile memory artifacts to identify processes, network connections, and system activity.
+
+**Skills Demonstrated**
+- RAM Acquisition
+- Volatility Framework
+- Network Artifact Analysis
+- Memory Validation
+- Incident Response Procedures
+
+---
+
+### Browser Artifact Analysis
+Examination and recovery of browser artifacts to reconstruct user activity across multiple web browsers.
+
+**Skills Demonstrated**
+- Browser History Analysis
+- Web Activity Reconstruction
+- IIS Administration
+- FTP Analysis
+- Artifact Correlation
+
+---
+
+## Toolset
+
+### Evidence Acquisition
 - FTK Imager
 - DumpIt
 
-### Analysis
-- Autopsy
-- Volatility
-- Event Viewer
-- Notepad++
-- BrowsingHistoryView
-- BrowserHistoryView
-- MozillaHistoryView
-
-### Validation
+### Evidence Validation
 - SigCheck
 - HashTab
 
----
-
-# Investigations
-
-## Windows Event Log Investigation
-
-Review and analysis of Windows event logs to identify account activity, service changes, shutdown events, and audit records.
-
-### Skills Demonstrated
-- Security Log Analysis
-- Application Log Analysis
-- Event Parsing
-- Timeline Development
-- Windows Auditing
+### Forensic Analysis
+- Autopsy
+- Volatility
+- Windows Event Viewer
+- BrowsingHistoryView
+- MozillaHistoryView
+- Notepad++
 
 ---
 
-## Disk Imaging and Deleted File Recovery
+## Methodology
 
-Forensic imaging of storage media, integrity verification through hashing, and recovery of deleted artifacts using forensic analysis tools.
+Each investigation follows a repeatable forensic workflow:
 
-### Skills Demonstrated
-- FTK Imager Acquisition
-- MD5/SHA-1 Verification
-- Evidence Preservation
-- File Carving
-- Deleted Data Recovery
-- Autopsy Analysis
-
----
-
-## Memory Forensics with Volatility
-
-Acquisition and analysis of volatile memory to identify active system activity and network connections.
-
-### Skills Demonstrated
-- RAM Acquisition
-- Memory Hash Validation
-- Volatility Analysis
-- Network Artifact Discovery
-- Evidence Preservation
+1. Evidence Acquisition
+2. Evidence Preservation
+3. Integrity Validation
+4. Artifact Analysis
+5. Timeline Development
+6. Findings Documentation
+7. Lessons Learned
 
 ---
 
-## Browser Artifact Analysis
+## Current Focus Areas
 
-Examination of web browser evidence and FTP activity to reconstruct user behavior and browser interactions.
-
-### Skills Demonstrated
-- Browser History Analysis
-- Web Activity Reconstruction
-- Browser Artifact Recovery
-- IIS Investigation
-- FTP Analysis
+- Digital Forensics
+- Incident Response
+- Memory Forensics
+- Windows Internals
+- Timeline Analysis
+- Artifact Recovery
 
 ---
 
-## Lessons Learned
+## Repository Structure
 
-One of the most valuable lessons from these investigations is that digital evidence rarely exists in a single location. Event logs, RAM, browser databases, registry artifacts, and file systems each tell part of the story. Effective forensic analysis comes from correlating multiple sources of evidence into a defensible timeline and documenting findings in a clear and repeatable manner.
-
+```text
+ResidualEvidence/
+│
+├── README.md
+│
+└── investigations/
+    ├── windows-event-log-investigation/
+    ├── disk-imaging-deleted-file-recovery/
+    ├── memory-forensics-volatility/
+    └── browser-artifact-analysis/
+```
+> The system always remembers something.
 ---
 
 ## About Me
