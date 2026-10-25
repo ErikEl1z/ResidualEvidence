@@ -122,4 +122,4 @@ ResidualEvidence/
 
 ## About Me
 
-I'm a cybersecurity student focused on digital forensics, incident response, and investigative analysis. This repository serves as a collection of my forensic work, methodologies, and continuing development in DFIR.
+I'm a cybersecurity student building skills in digital forensics, incident response, and investigative analysis. This repository serves as a collection of my forensic work, methodologies, and continuing development in DFIR.
